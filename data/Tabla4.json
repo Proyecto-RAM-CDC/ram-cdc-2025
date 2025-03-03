@@ -1,0 +1,1094 @@
+{
+  "Ampicilina": {
+    "Anaerobios": [true, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [true, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [true, "#000000"],
+    "Lactococcus spp": [true, "#000000"],
+    "Leuconostoc spp": [true, "#000000"]
+  },
+  "Penicilina": {
+    "Anaerobios": [true, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [true, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [true, "#000000"],
+    "Gemella spp": [true, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [true, "#000000"],
+    "Lactococcus spp": [true, "#000000"],
+    "Leuconostoc spp": [true, "#000000"]
+  },
+  "Piperacilina": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Cefazolina": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Cefuroxima": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Cefoxitina": {
+    "Anaerobios": [true, "#ff0000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Cefotetan": {
+    "Anaerobios": [true, "#ff0000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Cefotaxima": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [true, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [true, "#000000"],
+    "Gemella spp": [true, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Ceftriaxona": {
+    "Anaerobios": [true, "#ff0000"],
+    "Nocardia spp": [true, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [true, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [true, "#000000"],
+    "Gemella spp": [true, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [true, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Ceftazidima": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Cefepima": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [true, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Amoxicilina / Clavulanato": {
+    "Anaerobios": [true, "#000000"],
+    "Nocardia spp": [true, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Ampicilina / Sulbactam": {
+    "Anaerobios": [true, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Piperacilina / Tazobactam": {
+    "Anaerobios": [true, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Imipenem / Relebactam": {
+    "Anaerobios": [true, "#ff0000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Gentamicina": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Amikacina": {
+    "Anaerobios": [true, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Ciprofloxacino": {
+    "Anaerobios": [true, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [true, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [true, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [true, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Ofloxacino": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Levofloxacino": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [true, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [true, "#000000"],
+    "Gemella spp": [true, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [true, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Moxifloxacino": {
+    "Anaerobios": [true, "#ff0000"],
+    "Nocardia spp": [true, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Trimetoprim / Sulfametoxazol": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [true, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [true, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [true, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Sulfonamidas": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Ertapenem": {
+    "Anaerobios": [true, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Imipenem": {
+    "Anaerobios": [true, "#000000"],
+    "Nocardia spp": [true, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [true, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [true, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Meropenem": {
+    "Anaerobios": [true, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [true, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [true, "#000000"],
+    "Gemella spp": [true, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [true, "#000000"],
+    "Lactococcus spp": [true, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Doripenem": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Tetraciclina": {
+    "Anaerobios": [true, "#ff0000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [true, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [true, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [true, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Minociclina": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [true, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [true, "#000000"]
+  },
+  "Doxiciclina": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [true, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [true, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Aztreonam": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [true, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Azitromicina": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Claritromicina": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [true, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Eritromicina": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [true, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [true, "#000000"],
+    "Gemella spp": [true, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [true, "#000000"],
+    "Lactococcus spp": [true, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Daptomicina": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [true, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Clindamicina": {
+    "Anaerobios": [true, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [true, "#000000"],
+    "Gemella spp": [true, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [true, "#000000"],
+    "Lactococcus spp": [true, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Vancomicina": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [true, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [true, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [true, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [true, "#000000"],
+    "Lactococcus spp": [true, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Linezolida": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [true, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [true, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Rifampicina": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [true, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Metronidazol": {
+    "Anaerobios": [true, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  },
+  "Cloramfenicol": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [true, "#000000"],
+    "Aerococcus spp": [true, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      true,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      false,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      true,
+      "#000000"
+    ],
+    "Vibrio spp": [true, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [true, "#000000"]
+  },
+  "Quinupristina / Dalfopristina": {
+    "Anaerobios": [false, "#000000"],
+    "Nocardia spp": [false, "#000000"],
+    "Abiotrophia spp y Granulicatella spp": [false, "#000000"],
+    "Aerococcus spp": [false, "#000000"],
+    "Aeromonas spp": [false, "#000000"],
+    "Bacillus spp y g\u00e9neros relacionados (No incluye Bacillus anthracis)": [
+      false,
+      "#000000"
+    ],
+    "Campylobacter jejuni/coli": [false, "#000000"],
+    "Corynebacterium spp y otros G\u00e9neros de Coryneformes relacionados": [
+      true,
+      "#000000"
+    ],
+    "Erysipelothrix rhusiopathiae": [false, "#000000"],
+    "Gemella spp": [false, "#000000"],
+    "Aggregatibacter spp, Cardiobacterium spp, Eikenella corrodens y Kingella spp": [
+      false,
+      "#000000"
+    ],
+    "Vibrio spp": [false, "#000000"],
+    "Lactobacillus spp": [false, "#000000"],
+    "Lactococcus spp": [false, "#000000"],
+    "Leuconostoc spp": [false, "#000000"]
+  }
+}

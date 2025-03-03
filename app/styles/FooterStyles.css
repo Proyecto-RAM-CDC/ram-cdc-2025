@@ -1,0 +1,7 @@
+[data-theme="mexico"] .footervirus {
+  background-image: url("../images/svgs/footer.svg");
+}
+
+[data-theme="sonora"] .footervirus {
+  background-image: url("../images/svgs/footer_virus_sonora.svg");
+}

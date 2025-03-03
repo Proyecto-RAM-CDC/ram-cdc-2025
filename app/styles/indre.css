@@ -1,0 +1,41 @@
+.divWithBackground {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  height: 80rem; /* Ensure the div takes up full viewport height */
+  width: 100%; /* Ensure the div takes up full width */
+}
+
+.divWithBackground::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; /* Added to ensure full coverage horizontally */
+  bottom: 0; /* Added to ensure it covers the content vertically without explicitly setting the height */
+  background: url("../images/Photos/inDRE-a.webp") no-repeat top center / cover; /* Adjust the path accordingly */
+  filter: grayscale(100%) opacity(50%);
+}
+
+@media (min-width: 640px) {
+  .divWithBackground::before {
+    bottom: -10rem; /* Adjusted to match the increased margin-bottom */
+  }
+
+  .divWithBackground {
+    margin-bottom: 10rem;
+  }
+}
+
+.content {
+  position: relative;
+}
+
+#newBacteriaCreator::placeholder,
+#newAntibioticCreator::placeholder,
+#newHospitalCreator::placeholder,
+#geneVariant {
+  font-style: italic;
+  font-size: small;
+}

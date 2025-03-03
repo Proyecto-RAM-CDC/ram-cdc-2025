@@ -1,0 +1,209 @@
+{
+  "Ampicilina": {
+    "Listeria monocytogenes": [true, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [false, "#000000"],
+    "Pasteurella spp": [true, "#000000"],
+    "Pediococcus spp": [true, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Penicilina": {
+    "Listeria monocytogenes": [true, "#000000"],
+    "Micrococcus spp": [true, "#000000"],
+    "Moraxella catarrhalis": [false, "#000000"],
+    "Pasteurella spp": [true, "#000000"],
+    "Pediococcus spp": [true, "#000000"],
+    "Rothia mucilaginosa": [true, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Amoxicilina": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [false, "#000000"],
+    "Pasteurella spp": [true, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Cefuroxima": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [false, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Cefotaxima": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [false, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Ceftriaxona": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [true, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Ceftazidima": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [false, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Amoxicilina / Clavulanato": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [true, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Ciprofloxacino": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [false, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Levofloxacino": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [true, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [true, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Moxifloxacino": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [false, "#000000"],
+    "Pasteurella spp": [true, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Trimetoprim / Sulfametoxazol": {
+    "Listeria monocytogenes": [true, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [true, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [true, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Imipenem": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [false, "#000000"],
+    "Pasteurella spp": [false, "#000000"],
+    "Pediococcus spp": [true, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Meropenem": {
+    "Listeria monocytogenes": [true, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [false, "#000000"],
+    "Pasteurella spp": [false, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Tetraciclina": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [true, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Doxiciclina": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [false, "#000000"],
+    "Pasteurella spp": [true, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Azitromicina": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [true, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Claritromicina": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [false, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [true, "#000000"]
+  },
+  "Eritromicina": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [true, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [true, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [true, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Clindamicina": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [true, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [false, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [true, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Vancomicina": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [true, "#000000"],
+    "Moraxella catarrhalis": [false, "#000000"],
+    "Pasteurella spp": [false, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [true, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Rifampicina": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [false, "#000000"],
+    "Pediococcus spp": [false, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  },
+  "Cloramfenicol": {
+    "Listeria monocytogenes": [false, "#000000"],
+    "Micrococcus spp": [false, "#000000"],
+    "Moraxella catarrhalis": [true, "#000000"],
+    "Pasteurella spp": [true, "#000000"],
+    "Pediococcus spp": [true, "#000000"],
+    "Rothia mucilaginosa": [false, "#000000"],
+    "Helycobacter pylori": [false, "#000000"]
+  }
+}
