@@ -27,8 +27,6 @@ const EdasPositiveResult: React.FC<typeEdasPropsPositive> = (props) => {
     );
   }, [visitationID]);
 
-  console.log("EdasPositiveResult props", props);
-
   return (
     <div className="py-4">
       {<RenderConclusion {...props} />}

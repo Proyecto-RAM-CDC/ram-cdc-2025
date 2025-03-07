@@ -7,8 +7,6 @@ export async function edasSecondaryConditions(
   randomData: typeRandomData,
   urlRegExp: RegExp
 ) {
-  console.log("EDAS Conditions:", randomData.EDASSecondaryConditions);
-
   if (
     randomData.EDASSecondaryConditions.includes(
       "Ninguno(a) - No se muestra ninguno de los síntomas anteriores."
@@ -30,8 +28,6 @@ export async function edasSecondaryConditions(
         "Diarrea - Cuántas evacuaciones en 24 horas."
       )
     ) {
-      console.log("Evacuaciones:", randomData.randomEvacuaciones);
-
       // Wait for input field to appear and become editable
       page.waitForLoadState("domcontentloaded");
       // Wait for input field to appear and become editable
@@ -43,7 +39,6 @@ export async function edasSecondaryConditions(
       await expect(evacInput).toBeVisible({ timeout: 5000 });
       await expect(evacInput).toBeEditable({ timeout: 5000 }); // Ensure it's interactable
 
-      console.log("Filling Evacuaciones:", randomData.randomEvacuaciones);
       await evacInput.fill(randomData.randomEvacuaciones);
 
       await expect(evacInput).toHaveValue(randomData.randomEvacuaciones); // Ensure value is set
@@ -53,8 +48,6 @@ export async function edasSecondaryConditions(
         "Vómito - Cuántos vómitos en 24 horas."
       )
     ) {
-      console.log("Vómitos:", randomData.randomVomitos);
-
       // Wait for input field to appear and become editable
       page.waitForLoadState("domcontentloaded");
       await page.waitForSelector('input[name="vomitos"]', {
@@ -66,7 +59,6 @@ export async function edasSecondaryConditions(
       await expect(vomInput).toBeVisible({ timeout: 5000 });
       await expect(vomInput).toBeEditable({ timeout: 5000 }); // Ensure it's interactable
 
-      console.log("Filling Vómitos:", randomData.randomVomitos);
       await vomInput.fill(randomData.randomVomitos);
 
       await expect(vomInput).toHaveValue(randomData.randomVomitos); // Ensure value is set

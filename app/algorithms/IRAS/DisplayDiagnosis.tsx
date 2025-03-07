@@ -24,7 +24,6 @@ export const renderDiagnosisComponent = (
   reportCard: typeReportCard,
   visitation: typeVisitationStringified
 ) => {
-  console.log("renderDiagnosisComponent diagnosis", reportCard.diagnosis);
   switch (reportCard.diagnosis) {
     case "Bronquitis antibiotico":
       return (

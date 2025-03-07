@@ -132,8 +132,6 @@ export default function AddPatient() {
 
   const { profileId, finalData } = useLoaderData<LoaderData>();
 
-  console.log("...create.tsx UI finalData", finalData);
-
   return (
     <CreatePatient
       flushState={flushState}
@@ -165,8 +163,6 @@ export async function action({ request }: ActionFunctionArgs) {
   // Get the last location entry from the 'locations' field string array of the
   // 'Profile' model (whose id is 'profileId') in the database.
   clinicalData.location = profile.locations[profile.locations.length - 1];
-
-  console.log("...create.tsx action clinicalData", clinicalData);
 
   // If no existing conditions were selected on the form then 'existingConditions' will
   // be an empty string array.
@@ -240,15 +236,6 @@ export async function action({ request }: ActionFunctionArgs) {
     createdClinicosObject = await upsertClinicos(clinicalData);
   }
 
-  console.log(
-    "...create.tsx action createdClinicosObject",
-    createdClinicosObject
-  );
-  console.log(
-    "...create.tsx action createdVisitationObject",
-    createdVisitationObject
-  );
-
   return Response.json({
     createdClinicosObject,
     createdContactoObject,
@@ -303,7 +290,6 @@ export async function loader({
       finalData.createdClinicosObject = { curp: curp };
     }
 
-    console.log("...create.tsx loader finalData", finalData);
     return Response.json({ profileId, finalData });
   }
 

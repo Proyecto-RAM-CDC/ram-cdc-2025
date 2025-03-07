@@ -185,11 +185,6 @@ export async function action({ request }: ActionFunctionArgs) {
     formData
   ) as unknown as NewSecondaryCondition;
 
-  console.log(
-    "...define.tsx action newSecondaryConditions",
-    newSecondaryConditions
-  );
-
   const {
     clinicosId,
     visitationId,
@@ -234,11 +229,6 @@ export async function action({ request }: ActionFunctionArgs) {
       );
     }
   }
-
-  console.log(
-    "...define.tsx action arraySecondaryConditions",
-    arraySecondaryConditions
-  );
 
   // Add the new secondary conditions to the database.
   await updateSecondaryCondition(visitationId, arraySecondaryConditions);

@@ -21,8 +21,6 @@ import { Visitation, Clinicos } from "@prisma/client";
 
 export default function DefineRecord() {
   const loaderData = useLoaderData<AlgorithmData>();
-  console.log("...revise.tsx UI loaderData: ", loaderData);
-
   // There isn't yet provision for having multiple primary conditions in a single visit.
   // Hence, for now, we can safely assume that the first primary condition is the only one.
   const primaryCondition: string = loaderData.visitation.primaryConditions[0];
@@ -140,8 +138,6 @@ export async function loader({ request }: LoaderFunctionArgs) {
     throw new Error("Revise: Ningún paciente encontrado (visitation).");
   }
 
-  console.log("...revise.tsx loader visitation: ", visitation);
-  console.log("...revise.tsx loader clinicos: ", clinicos);
   return Response.json({ visitation, clinicos });
 }
 

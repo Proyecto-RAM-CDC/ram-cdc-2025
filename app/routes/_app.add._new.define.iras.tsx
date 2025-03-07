@@ -31,9 +31,6 @@ export default function DefineRecord() {
   const { primaryConditions } = usePrimaryConditionStore();
   const { secondarySymptoms } = useSecondarySymptomStore();
 
-  console.log("define.iras.tsx primaryConditions", primaryConditions);
-  console.log("define.iras.tsx secondarySymptoms", secondarySymptoms);
-
   // Find the index (zero indexed) of the first element in the 'primaryConditions' array
   // that satisfies the provided 'hasPrimaryCondition' testing function.
   const selectedPrimaryCondition: number =
@@ -49,8 +46,6 @@ export default function DefineRecord() {
   // correspond to the selected primary condition. Assumes the indexes of the primary
   // conditions (in the store) match the indexes of the secondary symptoms (also in the store).
   const selectedSymptoms = secondarySymptoms[selectedPrimaryCondition];
-
-  console.log("define.iras.tsx selectedSymptoms", selectedSymptoms);
 
   // The 'checked' array is an array of booleans. Initialized to all 'false' values.
   const checkedSecondarySymptoms: SecondarySymptom["checked"] =
@@ -230,22 +225,12 @@ export async function action({ request }: ActionFunctionArgs) {
     formData
   ) as unknown as NewSecondaryCondition;
 
-  console.log(
-    "...define.tsx action newSecondaryConditions",
-    newSecondaryConditions
-  );
-
   const { clinicosId, visitationId, ...secondaryConditions } =
     newSecondaryConditions;
 
   // Create an array of the secondary conditions - with duplicates removed.
   const arraySecondaryConditions: string[] =
     convertCheckboxValuesToArray(secondaryConditions);
-
-  console.log(
-    "...define.tsx action arraySecondaryConditions",
-    arraySecondaryConditions
-  );
 
   // Add the new secondary conditions to the database.
   await updateSecondaryCondition(visitationId, arraySecondaryConditions);

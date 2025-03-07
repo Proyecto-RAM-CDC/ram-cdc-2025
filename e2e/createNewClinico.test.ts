@@ -152,13 +152,11 @@ test.describe.serial("Finding CURPs", () => {
         'select[name="countriesMigration"]',
         randomData.migrationCountries
       );
-      console.log("Defined Countries:", randomData.migrationCountries);
 
       // Verify the selections
       const selectedOptions = await page
         .locator('select[name="countriesMigration"] option:checked')
         .allTextContents();
-      console.log("Selected Countries:", selectedOptions);
 
       // Confirm that the selected options match the expected options - the order may vary.
       expect(selectedOptions.sort()).toEqual(

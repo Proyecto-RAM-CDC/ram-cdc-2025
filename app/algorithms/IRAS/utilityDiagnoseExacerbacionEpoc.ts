@@ -14,10 +14,6 @@ const SYMPTOMS_ENVIAR_SEGUNO_NIVEL: typeFlatSymptomData =
 const hasExacerbacionEpocSymptoms = (
   visitation: typeVisitationStringified
 ): boolean => {
-  console.log(
-    "Checking for EPOC Symptoms in visitation.secondaryConditions:",
-    visitation.secondaryConditions
-  );
   return Object.values(SYMPTOMS_EPOC).some((symptom) =>
     hasSecondarySymptom(visitation, symptom, enumCondition.Iras)
   );
@@ -26,10 +22,6 @@ const hasExacerbacionEpocSymptoms = (
 const hasSegundoNivelSymptoms = (
   visitation: typeVisitationStringified
 ): boolean => {
-  console.log(
-    "Checking for Segundo nivel Symptoms in visitation.secondaryConditions:",
-    visitation.secondaryConditions
-  );
   return Object.values(SYMPTOMS_ENVIAR_SEGUNO_NIVEL).some((symptom) =>
     hasSecondarySymptom(visitation, symptom, enumCondition.Iras)
   );
@@ -50,8 +42,6 @@ export const utilityDiagnoseExacerbacionEpoc = (
       diagnosis = "Exacerbación de EPOC enviar a segundo nivel";
     }
   }
-
-  console.log("utilityDiagnoseExacerbacionEpoc diagnosis", diagnosis);
 
   return diagnosis;
 };

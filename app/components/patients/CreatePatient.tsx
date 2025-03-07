@@ -126,8 +126,6 @@ const CreatePatient: React.FC<IProps> = ({
 
   const [nextButton, setNextButton] = useState<boolean>(false);
 
-  console.log("CreatePatient.tsx UI finalData", finalData);
-
   // Use "useRef" to store the initial data for the form. This initial data is provided
   // by the user when they first arrive at the page. It was then updated within the
   // "useEffect" after the user submitted the form. This updating caused a re-render of
@@ -144,8 +142,6 @@ const CreatePatient: React.FC<IProps> = ({
         })
       : null
   );
-
-  console.log("CreatePatient.tsx UI dataForFormRef", dataForFormRef);
 
   const navigate = useNavigate();
   const navigation = useNavigation();

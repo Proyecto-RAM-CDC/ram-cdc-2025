@@ -46,8 +46,6 @@ export async function action({ request }: ActionFunctionArgs) {
     formData
   ) as unknown as NewPrimaryCondition;
 
-  console.log("...primary.tsx action newPrimaryCondition", newPrimaryCondition);
-
   const visitationId: string = newPrimaryCondition.visitationID;
 
   // Get the existing primary conditions from within the most recent 'Visitation' object.

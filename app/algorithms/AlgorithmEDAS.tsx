@@ -10,14 +10,11 @@ import {
 } from "~/algorithms/utilitiesTypes";
 
 const AlgorithmEDAS: React.FC<typePropsAlgos> = ({ loaderData }) => {
-  console.log("AlgorithmEDAS loaderData", loaderData);
   const reportCard: typeReportCard = buildPatientReportCard(
     loaderData.clinicos,
     loaderData.visitation,
     enumCondition.Edas
   );
-
-  console.log("AlgorithmEDAS reportCard", reportCard);
 
   const {
     hasDisenteria,
@@ -33,8 +30,6 @@ const AlgorithmEDAS: React.FC<typePropsAlgos> = ({ loaderData }) => {
     hospitalized,
     positive,
   } = determineConclusion(reportCard);
-
-  console.log("AlgorithmEDAS determineConclusion", positive);
 
   return (
     <div className="mx-12">

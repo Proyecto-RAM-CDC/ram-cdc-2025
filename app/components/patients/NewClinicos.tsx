@@ -47,8 +47,6 @@ const NewDatosClinicos: React.FC<IProps> = (props) => {
     ? dataObject.createdVisitationObject
     : null;
 
-  console.log("NewClinicos.tsx clinicosObject: ", clinicosObject);
-
   useEffect(() => {
     if (visitationObject === null) {
       setIsMigrant(false);

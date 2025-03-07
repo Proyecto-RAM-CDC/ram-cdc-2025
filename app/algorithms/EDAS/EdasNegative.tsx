@@ -30,8 +30,6 @@ const EdasNegativeResult: React.FC<typeEdasPropsNegative> = (props) => {
     );
   }, [visitationID]);
 
-  console.log("EdasNegativeResult props", props);
-
   return (
     <div>
       <div className="bg-accent py-4 px-2 mb-8 border-8 border-primary">

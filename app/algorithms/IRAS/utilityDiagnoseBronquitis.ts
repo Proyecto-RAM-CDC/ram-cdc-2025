@@ -12,10 +12,6 @@ const SYMPTOMS: typeFlatSymptomData = ALL_IRAS_SYMPTOMS.BRONCHITIS;
 const hasBronquitisSymptoms = (
   visitation: typeVisitationStringified
 ): boolean => {
-  console.log(
-    "Checking for Bronquitis Symptoms in visitation.secondaryConditions:",
-    visitation.secondaryConditions
-  );
   return Object.values(SYMPTOMS).some((symptom) =>
     hasSecondarySymptom(visitation, symptom, enumCondition.Iras)
   );
@@ -30,8 +26,6 @@ export const utilityDiagnoseBronquitis = (
   } else {
     diagnosis = null;
   }
-
-  console.log("utilityDiagnoseBronquitis diagnosis", diagnosis);
 
   return diagnosis;
 };

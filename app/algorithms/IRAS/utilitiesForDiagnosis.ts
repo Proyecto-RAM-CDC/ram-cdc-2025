@@ -20,14 +20,12 @@ const IRASBajas = (
 ) => {
   // BAJAS BRONQUITIS.
   if (!diagnosis) {
-    console.log("utiltiesForDiagnosis - check BRONQUITIS");
     diagnosis = utilityDiagnoseBronquitis(visitation, diagnosis);
   }
 
   // BAJAS CENTRO.
   // EXACERBACIÓN DE EPOC.
   if (!diagnosis) {
-    console.log("utiltiesForDiagnosis - check CENTRO");
     diagnosis = utilityDiagnoseExacerbacionEpoc(visitation, diagnosis);
   }
 
@@ -110,9 +108,7 @@ export function getIrasBajasOrAltas(
 ): typeReportCard {
   let diagnosis: typeIrasDiagnostic = null;
   diagnosis = IRASBajas(visitation, diagnosis);
-  console.log("define.iras.tsx diagnosis A", diagnosis);
   diagnosis = IRASAltas(visitation, diagnosis);
-  console.log("define.iras.tsx diagnosis B", diagnosis);
 
   reportCard.diagnosis = diagnosis;
 

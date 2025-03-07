@@ -145,23 +145,14 @@ async function findProfileByEmail(email: string): Promise<Profile | null> {
     return profile;
   } catch (error) {
     if (error instanceof Prisma.PrismaClientKnownRequestError) {
-      console.log(
-        "PrismaClientKnownRequestError: This error is thrown for known issues in your database schema."
-      );
       // The .code property can be accessed in a type-safe manner
       if (error.code === "1008") {
-        console.log(
-          "PrismaClientKnownRequestError - code 1008: This error code is thrown when a query takes longer than the specified timeout."
-        );
         console.log(
           "PrismaClientKnownRequestError - code 1008: ",
           error.message
         );
       }
     } else if (error instanceof Prisma.PrismaClientUnknownRequestError) {
-      console.log(
-        "PrismaClientUnknownRequestError: This error is thrown for unknown issues in your database schema."
-      );
       console.log("PrismaClientUnknownRequestError: ", error.message);
     } else {
       // Note: If Prisma cannot connect to the database (e.g., due to a connection issue or

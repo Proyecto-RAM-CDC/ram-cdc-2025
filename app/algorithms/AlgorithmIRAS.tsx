@@ -12,15 +12,11 @@ import { renderDiagnosisComponent } from "~/algorithms/IRAS/DisplayDiagnosis";
 import { getIrasBajasOrAltas } from "~/algorithms/IRAS/utilitiesForDiagnosis";
 
 const AlgorithmIRAS: React.FC<typePropsAlgos> = ({ loaderData }) => {
-  console.log("AlgorithmIRAS.tsx loaderData: ", loaderData);
-
   let reportCard: typeReportCard = buildPatientReportCard(
     loaderData.clinicos,
     loaderData.visitation,
     enumCondition.Iras
   );
-
-  console.log("AlgorithmIRAS reportCard", reportCard);
 
   reportCard = getIrasBajasOrAltas(loaderData.visitation, reportCard);
 
