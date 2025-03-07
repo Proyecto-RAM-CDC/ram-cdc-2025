@@ -75,7 +75,10 @@ export async function upsertContacto(
   // Skip creating or updating a 'Contacto' object if the necessary properties are missing.
   if (!shouldInvolveContacto(clinicalData)) return null;
 
-  const contactoId = clinicalData.contactoID;
+  const contactoId =
+    clinicalData.contactoID && clinicalData.contactoID !== "null"
+      ? clinicalData.contactoID
+      : null;
 
   if (!contactoId) {
     // No existing ID provided; create a new record directly
@@ -143,7 +146,10 @@ export async function upsertOtros(
   // Skip creating or updating an 'Otros' object if the necessary properties are missing.
   if (!shouldInvolveOtros(clinicalData)) return null;
 
-  const otrosId = clinicalData.otrosID;
+  const otrosId =
+    clinicalData.otrosID && clinicalData.otrosID !== "null"
+      ? clinicalData.otrosID
+      : null;
 
   if (!otrosId) {
     // No existing ID provided; create a new record directly
@@ -193,7 +199,10 @@ export async function upsertOcupacion(
   // Skip creating or updating an 'Ocupacion' object if the necessary properties are missing.
   if (!shouldInvolveOcupacion(clinicalData)) return null;
 
-  const ocupacionId = clinicalData.ocupacionID;
+  const ocupacionId =
+    clinicalData.ocupacionID && clinicalData.ocupacionID !== "null"
+      ? clinicalData.ocupacionID
+      : null;
 
   if (!ocupacionId) {
     // No existing ID provided; create a new record directly
