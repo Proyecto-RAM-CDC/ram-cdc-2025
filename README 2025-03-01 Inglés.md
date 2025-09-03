@@ -100,7 +100,7 @@ Update your ESLint configuration to use the @typescript-eslint/eslint-plugin and
 
 2. Update your .eslintrc configuration.
 
-```Bash
+```json
 {
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],

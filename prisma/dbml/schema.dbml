@@ -1,0 +1,245 @@
+//// ------------------------------------------------------
+//// THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+//// ------------------------------------------------------
+
+Table Clinicos {
+  id String [pk]
+  contacto Contacto
+  contactoId String
+  otros Otros
+  otrosId String
+  ocupacion Ocupacion
+  ocupacionId String
+  visitationIds String[] [not null]
+  visitations Visitation [not null]
+  location String
+  curp String [unique, not null]
+  dob DateTime [not null]
+  sexonacer String [not null]
+  indigenous Boolean [not null]
+  afrodescendant Boolean [not null]
+  dateAdded DateTime [default: `now()`, not null]
+}
+
+Table Visitation {
+  id String [pk]
+  curp String [not null]
+  date DateTime [default: `now()`, not null]
+  clinicos Clinicos [not null]
+  clinicosId String [not null]
+  genero String [not null]
+  peso Float [not null]
+  talla Float [not null]
+  existingConditions String[] [not null]
+  hospitalized Boolean [not null]
+  takenMedication Boolean [not null]
+  disability Boolean [not null]
+  migrant Boolean [not null]
+  countriesMigration String[] [not null]
+  alergies String[] [not null]
+  primaryConditions String[] [not null]
+  secondaryConditions String[] [not null]
+  evacuationCount Int [not null, default: 0]
+  vomitCount Int [not null, default: 0]
+  location String [not null]
+  diagnosis String
+  notes String
+}
+
+Table Contacto {
+  id String [pk]
+  clinicos Clinicos [not null]
+  clinicosId String [unique, not null]
+  date DateTime [default: `now()`, not null]
+  homeEmail String
+  homeCel String
+  homeDireccion String
+  homeExtNum String
+  homeIntNum String
+  homeCity String
+  homeState String
+  homePostalCode String
+  homeCountry String
+  lugarOrigenEstado String
+  lugarOrigenCiudad String
+}
+
+Table Otros {
+  id String [pk]
+  clinicos Clinicos [not null]
+  clinicosId String [unique, not null]
+  date DateTime [default: `now()`, not null]
+  nombreOtros String
+  apellidoPaterno String
+  apellidoMaterno String
+  estadoCivil String
+  nivelEstudios String
+}
+
+Table Ocupacion {
+  id String [pk]
+  clinicos Clinicos [not null]
+  clinicosId String [unique, not null]
+  date DateTime [default: `now()`, not null]
+  ocupacion String
+  paisTrabajo String
+  direccionTrabajo String
+  ciudadTrabajo String
+  estadoTrabajo String
+}
+
+Table Profile {
+  id String [pk]
+  nombre String [not null]
+  apellidoPaterno String [not null]
+  apellidoMaterno String
+  cedulaProfesional String [unique, not null]
+  institution String [not null]
+  correoElectronico String [not null]
+  password String [not null]
+  dateAdded DateTime [default: `now()`, not null]
+  locations String[] [not null]
+}
+
+Table Bacteria {
+  id String [pk]
+  bacteria String [unique, not null]
+  table Int [not null]
+}
+
+Table Resistance {
+  id String [pk]
+  resistanceMechanism String [unique, not null]
+}
+
+Table Hospital {
+  id String [pk]
+  clues String [unique, not null]
+  hospitalName String [not null]
+  entidad String [not null]
+  municipio String [not null]
+  tipo String [not null]
+  subtipo String [not null]
+  codigo String [not null]
+  status String [not null]
+  clave String [not null]
+  nivel String [not null]
+  latitude Float
+  longitude Float
+}
+
+Table AntimicrobianoTabla3 {
+  id String [pk]
+  antimicrobiano String [unique, not null]
+  Enterobacterales BactStructure [not null]
+  SalmonellaShigella BactStructure [not null]
+  PseudomonasAeruginosa BactStructure [not null]
+  Acinetobacter BactStructure [not null]
+  BurkholderiaCepacia BactStructure [not null]
+  StenotrophomonasMaltophilia BactStructure [not null]
+  OtrosNoEnterobacterales BactStructure [not null]
+  HaemophilusInfluenzae BactStructure [not null]
+  NeisseriaGonorrhoeae BactStructure [not null]
+  NaisseriaMeningitidis BactStructure [not null]
+  Staphylococcus BactStructure [not null]
+  Enterococcus BactStructure [not null]
+  StreptococcusPneumoniae BactStructure [not null]
+  StreptococcusHemolitico BactStructure [not null]
+  StreptococcusViridans BactStructure [not null]
+}
+
+Table AntimicrobianoTabla4 {
+  id String [pk]
+  antimicrobiano String [unique, not null]
+  Anaerobios BactStructure [not null]
+  Nocardia BactStructure [not null]
+  Abiotrophia BactStructure [not null]
+  Aerococcus BactStructure [not null]
+  Aeromonas BactStructure [not null]
+  Bacillus BactStructure [not null]
+  Campylobacter BactStructure [not null]
+  Corynebacterium BactStructure [not null]
+  Erysipelothrix BactStructure [not null]
+  Gemella BactStructure [not null]
+  Aggregatibacter BactStructure [not null]
+  Vibrio BactStructure [not null]
+  Lactobacillus BactStructure [not null]
+  Lactococcus BactStructure [not null]
+  Leuconostoc BactStructure [not null]
+}
+
+Table AntimicrobianoTabla5 {
+  id String [pk]
+  antimicrobiano String [unique, not null]
+  Listeria BactStructure [not null]
+  Micrococcus BactStructure [not null]
+  Moraxella BactStructure [not null]
+  Pasteurella BactStructure [not null]
+  Pediococcus BactStructure [not null]
+  Rothia BactStructure [not null]
+  Helycobacter BactStructure [not null]
+}
+
+Table AntimicrobianoTabla6 {
+  id String [pk]
+  antimicrobiano String [unique, not null]
+  CandidaAlbicans BactStructure [not null]
+  CandidaGlabrata BactStructure [not null]
+  CandidaGuilliermondii BactStructure [not null]
+  CandidaKrusei BactStructure [not null]
+  CandidaParapsilosis BactStructure [not null]
+  CandidaTropicalis BactStructure [not null]
+  CandidaAuris BactStructure [not null]
+  CandidaDubliniensis BactStructure [not null]
+  CandidaKefyr BactStructure [not null]
+  CandidaLusitaniae BactStructure [not null]
+  CandidaPeliculosa BactStructure [not null]
+  CandidaDuobushaemulonii BactStructure [not null]
+  CandidaHaemulonii BactStructure [not null]
+  CandidaPararugosa BactStructure [not null]
+  CandidaRugosa BactStructure [not null]
+  CryptococcusGatti BactStructure [not null]
+  CryptococcusDeuterogatti BactStructure [not null]
+  CryptococcusNeoformans BactStructure [not null]
+  AspergillusFumigatus BactStructure [not null]
+}
+
+Table Gene {
+  id String [pk]
+  geneName String [unique, not null]
+}
+
+Table Indreobj {
+  id String [pk]
+  bacteria String [not null]
+  resistanceMechanism String[] [not null]
+  antibiotic String[] [not null]
+  gene String[] [not null]
+  geneVariant String [not null]
+  hospitalName String [not null]
+  hospitalClues String [not null]
+  hospitalId String [not null]
+  dynamicData Json [not null]
+  dateAdded DateTime [default: `now()`, not null]
+}
+
+Table State {
+  id String [pk]
+  stateName String [unique, not null]
+}
+
+Table StateGeoJson {
+  id String [pk]
+  stateName String [unique, not null]
+  geoJson Json [not null]
+  createdAt DateTime [default: `now()`, not null]
+  updatedAt DateTime [not null]
+}
+
+Ref: Visitation.clinicosId > Clinicos.id
+
+Ref: Contacto.clinicosId - Clinicos.id
+
+Ref: Otros.clinicosId - Clinicos.id
+
+Ref: Ocupacion.clinicosId - Clinicos.id
